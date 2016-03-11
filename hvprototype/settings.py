@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'django_comments',
     'django.contrib.sites',
+    'gunicorn',
 ]
 
 FLUENT_COMMENTS_EXCLUDE_FIELDS = ('email', 'url')
