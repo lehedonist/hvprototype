@@ -9,4 +9,6 @@ urlpatterns = [
     url(r'^post/(?P<pk>[0-9]+)/$', views.PostView.as_view(), name='post'),
     url(r'^media/(?P<path>.*)$', 'django.views.static.serve',
              {'document_root': settings.MEDIA_ROOT}),   
+    url(r'^$', views.HomeView, name='home'),
+
 ]

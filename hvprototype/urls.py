@@ -22,7 +22,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^post/comments/', include('fluent_comments.urls')),
     url(r'^media/(?P<path>.*)$', 'django.views.static.serve',
-             {'document_root': settings.MEDIA_ROOT}, name='media'),  
-
+             {'document_root': settings.MEDIA_ROOT}, name='media'), 
+    
 
 ]

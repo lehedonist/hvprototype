@@ -2,19 +2,16 @@
     background-color: #ffffff;
     margin-top: 0;
     padding: 10px 20px 10px 40px;
+    drop-shadow:none;
 }
 
-.navbar {
-    color: #ffffff;
-    margin-top: 0;
-    text-decoration: none;
-    
+.navbar-default {
+  
+  border-style:none;
+  max-height:10pt;
 }
 
-.navbar-brand {
-    color: #ffffff;
-    font-size: 24pt;
-    text-decoration: none;
+.h1 {
+  
 
 }
-
